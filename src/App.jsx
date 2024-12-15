@@ -1,13 +1,14 @@
-import Button from './components/button/Button';
+import CardUser from './components/cardUser/CardUser';
+import Container from './components/container/Container';
 import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
 	return (
 		<div>
 			<GlobalStyles />
-			<h1>Curso de React</h1>
-			<Button color='steelblue'>Click Me!</Button>
-			<Button color='#f0f'>Click Me!</Button>
+			<Container>
+<CardUser></CardUser>
+			</Container>
 		</div>
 	);
 };
